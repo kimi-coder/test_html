@@ -1,0 +1,402 @@
+body{
+    font-family: Arial, Helvetica, sans-serif, "微軟正黑體" ;
+    width: 100%;
+    margin: auto;
+
+}
+header{
+    background: #000;
+    position: fixed;
+    width: 100%;
+    top:0 ;
+}
+nav {
+    width: 90%;
+    /* height: 77px; */
+
+}
+.brand {
+    float: left ;
+}
+.brand img {
+    width: 50%;
+    padding-top: 20px ;
+}
+nav ul {
+    float: right;
+    margin: 0 20px 0 20px;
+}
+nav ul li {
+    float: left;
+    margin-right: 15px ;
+}
+nav ul li a {
+    display: block;
+    color: #fff ;
+    font-size: 20px ;
+    text-decoration: none ;
+    line-height: 77px ;
+    font-weight: 600 ;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    padding: 40px 10px;
+    font-size: 20px ;
+    line-height: 1.2em;
+    text-align: center;
+}
+#herosection{
+clear:both;
+margin-top: 30px;
+padding-top: 120px;
+background-color:#000;
+}
+.fb{
+margin-top: 18px;
+}
+.man11{
+ background: url(/images/bg-man_1.png) no-repeat -200px 0;
+ background-size: 50%;
+}
+#herosection .container h3{
+/* font-size:20px;
+line-height: 1.5em;
+font-weight: 600; */
+color: #fff;
+}
+#herosection .container p{
+color: rgb(124, 120, 120);
+}
+#speaker{
+width: 40%;    
+}
+#man1{
+width: 30%;
+}
+.box{
+color: rgb(212, 139, 139);  
+font-size: 30px; 
+}
+.box span{
+font-size: 40px; 
+}
+#slogan{
+background-color: rgb(243, 153, 153);  
+text-align: center;
+padding: 20px ;  
+}
+.display{
+font-size:28px ;  
+font-weight: 600;  
+line-height: 28px;
+text-align: center;
+padding: 40px;
+}
+.display1{
+font-size: 40px;
+line-height: 30px;
+font-weight: 600;
+padding:30px 0;
+letter-spacing:2px;
+/* text-align: center; */
+}
+.display2{
+font-size:28px ;  
+font-weight: 600;  
+line-height: 28px;
+text-align: center;
+height: 5px;
+margin-top: -20px;
+}
+.span{
+font-size: 25px;    
+}
+#audience{
+background-color: rgb(68, 51, 88);
+color: #fff;
+}
+.audience{
+display: flex;
+}
+.audience div{
+width: 25%;
+}
+#who{
+text-align: center;
+margin: 4px 0 0 0;
+}
+/* .audience text{
+width: 100%;
+margin: auto 30px;
+} */
+.leader1, .leaderbox {
+display: inline-block;
+text-align: left;
+line-height: 1.5em;
+font-size:.7em ;
+}
+.leaderbox{
+font-size: 25px;
+font-weight: 600;
+letter-spacing:2px;
+}
+.leader1 h3{
+font-size: 25px;
+font-weight: 600;
+padding:10px 0;
+letter-spacing:2px;  
+margin: 0 80px  0 0; 
+line-height: .8em;
+}
+.leader1 p{
+font-size:20px;
+font-weight: 600;
+letter-spacing:2px;
+margin: 0 30px  0 0;
+}
+#highlight2{
+padding-top: 40px;
+width: 70%;
+}
+#high{
+padding-top: 80px;
+}
+#slogan1{
+background-color: rgb(240, 183, 183);  
+}
+.box2{
+ font-size: 1.2em;  
+ font-weight: 600; 
+ line-height: 1.8em;
+}
+.box3{
+color: rgb(245, 155, 155);    
+font-size: 1em;
+font-weight: 600; 
+line-height: 3em;
+}
+.herosectionbox{
+text-align: left;
+margin-left: 300px;
+}
+#speaker{
+width: 500px; 
+display:block; 
+position: absolute;
+top: 200px;
+left:500px;
+}
+#main1{
+height: 700px;
+background: url(images/bg-man.jpg) no-repeat, #000;
+background-position: right center;
+background-repeat: no-repeat;
+background-size: 650px 700px;
+}   
+.mainbox p{
+    color: #ccc;
+    text-align: left;
+    margin: 200px auto;
+}
+.speaker2{
+    width: 90%;
+    margin-bottom: 20px;
+}
+#infomation{
+    background-color: rgb(77, 50, 97);    
+    color: #fff;
+}
+.align{
+    width: 100%;
+    margin: 20px auto;
+}
+.align p{
+    text-align:right;
+    font-size: .9em;
+    margin: 0 80px;
+    position: static;
+}
+.col{
+    background-color: rgb(191, 17, 17);
+    display: inline-block;
+    border-radius: 30px;
+    padding: 15px 30px;
+    margin: 0 20px;
+}
+.col:hover{
+    opacity: 0.5;     
+}
+.col a{
+color: #fff;
+text-decoration: none;
+}
+.align span{
+    font-size: 1.5em;
+}
+#col1{
+background-color: #C5AC9F;    
+}
+#col2{
+background-color: #FF8736;
+}
+.box1{
+background: linear-gradient(125deg,#ffffff 10%,#dfb6a8 10.1%,#f9d7cb 60%, #ffffff 100%);
+font-size: 1.6em;
+font-weight: 700;
+line-height: 3em;
+}
+.box4{
+text-align: left;
+}
+.box5{
+font-size: 1em;
+text-align: left;    
+}
+#highlight{
+background-color: #fff;
+padding: 30px 0;  
+}
+.strong{
+display: inline-block;
+margin: 0 10px;  
+}
+.a{
+background-color: rgb(228, 25, 25);
+font-weight: 600;
+padding: 10px 0;
+border-radius: 25px;
+margin: 0 190px 0 0;
+}
+#h{
+background-color: rgb(228, 25, 25);
+font-weight: 600;
+border-radius: 40px;
+margin: 0 10px 0 10px;
+}
+#h:hover{
+background-color: #FF8736;
+}
+.a:hover{
+background-color: #FF8736;
+}
+.strong a{
+color: #fff; 
+text-decoration: none;   
+}
+#journey{
+width: 50%;
+display: inline-block;
+}
+.highlight1{
+color: rgb(47, 67, 219);
+font-size: 1.5em;
+font-weight: 700;
+line-height: 1.5em;
+}
+.strong p{
+line-height: 2em;
+text-align: left;
+}
+.strong h4{
+line-height: 2em;
+}
+.bulletin{
+background-color: rgb(164, 164, 164);    
+}
+.bulletin .container p{
+text-align: left;    
+}
+.article{
+background-color: rgb(215, 212, 212);    
+}
+.article1{
+    display: inline-block;
+    width: 380px;
+    margin: 20px 10px;
+}
+.article2{
+    height: 200px;
+    overflow: hidden;
+}
+.article2:hover{
+    opacity: 0.5;      
+}
+.img{
+    width: 400px;
+}
+.article1 h6{
+    font-size: 20px;
+    line-height: 25px;
+}
+.article1 a, .article1 a:visited{
+    color: #000;
+    text-decoration: none;
+}
+#qna li{
+    padding: 0 0 26px 0;
+    text-align: left;
+}
+
+#qna li h3{
+    font-weight: 700;
+}
+#qna li p{
+    padding: 30px 0 0 0;
+}
+#qna a, #qna a:visited{
+    text-decoration: none;
+    color: #3013a4;
+}
+#qna a:hover{
+    color: #17a2b8;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+footer li{
+    display: inline-block;
+    margin: 10px 5px;
+}
+footer a, footer a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+footer ul{
+    font-size: 20px;
+    font-weight: 500;
+    }
+.bnext{
+    font-size: 25px;
+    font-weight: 600;
+}
+footer p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.top{
+    width: 70px;
+    position: fixed;
+    right: 5px;
+    bottom: 10px;
+}
+.top:hover{
+    opacity: 0.5;   
+}
+.top img{
+    width: 100%;
+}
+
+        
+
+
+
+
+
+
+
+
+
